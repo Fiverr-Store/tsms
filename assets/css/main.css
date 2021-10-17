@@ -75,6 +75,10 @@ p {
   color: var(--secondary-color);
 }
 
+.wow {
+  visibility: hidden;
+}
+
 .preloader {
   position: fixed;
   top: 0;
@@ -236,10 +240,6 @@ p {
     color: transparent;
   }
 }
-.wow {
-  visibility: hidden;
-}
-
 /*--------------------------------------------------------------
 # main-footer
 --------------------------------------------------------------*/
