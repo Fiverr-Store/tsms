@@ -211,7 +211,8 @@ p {
           align-items: center;
   text-decoration: none;
   background-color: #656DF2;
-  padding: 3px 15px;
+  padding: 3px 13px;
+  padding-top: 4px;
   color: #ffffff;
   border-radius: 6px;
   border: 1px solid #4b52dd;
@@ -223,6 +224,7 @@ p {
 @media only screen and (max-width: 767px) {
   .top-bar .flex-row .flex-col .btn-discord {
     margin-top: 10px;
+    padding: 3px 11px;
   }
 }
 .top-bar .flex-row .flex-col .btn-discord img {
