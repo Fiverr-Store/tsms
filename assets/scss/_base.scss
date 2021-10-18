@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap');
+
+$font-passero:  'Passero One', cursive;
+$font-hind: 'Hind', sans-serif;
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Passero One', cursive;
+  font-family: $font-passero;
   font-weight: 400;
   font-style: normal;
   background-color: $primary-color;
